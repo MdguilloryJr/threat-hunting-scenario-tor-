@@ -114,13 +114,21 @@ DeviceNetworkEvents
 ## Installation and Initial Process Creation
 
 2025-08-04 17:21:36: A process named tor-browser-windows-x86 64-portable-14.5.5.exe was created from the downloads folder. This is the initial execution of the installer.
+
 2025-08-04 17:27:55 - 17:33:38: The Tor installer process was run multiple times.
+
 2025-08-04 17:37:58 - 17:38:17: Multiple instances of the firefox.exe process were created from the Tor Browser folder on the desktop. This indicates the browser was being opened and initialized.
+
 2025-08-04 17:38:07: The tor.exe process was created, which is the core component of the Tor network client.
+
 2025-08-04 17:39:18 - 17:55:45: The Tor installer process was run repeatedly.
+
 2025-08-04 18:20:38 - 18:30:32: The Tor installer file was renamed and then deleted from the downloads folder, suggesting the user was cleaning up installation files.
+
 2025-08-04 18:31:34: The user ran the tor-browser-windows-x86 64-portable-14.5.5.exe installer with the /S flag, which indicates a silent installation. This is a critical finding from a threat-hunting perspective.
+
 2025-08-04 18:31:58: Numerous Tor-related files were created, including tor.txt, Torbutton.txt, and Tor-Launcher.txt.
+
 2025-08-04 18:31:58: The tor.exe executable was created on the desktop.
 
 ## Browser Usage and Network Connections
