@@ -76,7 +76,7 @@ DeviceFileEvents
 
 ## Created By:
 - **Author Name**: Michael Guillory
-- **Author Contact**: https://www.linkedin.com/in/michaelguillorymhe/
+- **Author Contact**: https://www.linkedin.com/in/michaelguillory-infosec/
 - **Date**: August 4, 2025
 
 ## Validated By:
