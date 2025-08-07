@@ -134,14 +134,23 @@ DeviceNetworkEvents
 ## Browser Usage and Network Connections
 
 2025-08-04 18:33:23: The user created a shortcut named Tor Browser.lnk on the desktop.
+
 2025-08-04 18:33:23 - 18:33:30: Multiple instances of firefox.exe were created, indicating the Tor browser was opened and actively being used.
+
 2025-08-04 18:33:28: The tor.exe process was created, initiating the connection to the Tor network.
+
 2025-08-04 18:33:47: A network connection was successfully established from tor.exe to a remote IP address, 160.119.253.114, on port 443 with the URL https://www.w3q73dtmefysjw6hdpe.com.
+
 2025-08-04 18:33:53: Another network connection from tor.exe was made to 66.206.0.82 on port 9001 with the URL https://www.qcx3.com. Port 9001 is a known Tor relay port.
+
 2025-08-04 18:33:56: A network connection was established from firefox.exe to the local IP address 127.0.0.1 on port 9150. This is the Tor browser proxy port used for internal communication.
+
 2025-08-04 18:34:16 - 18:34:17: A connection from tor.exe was made to 185.147.35.74 on port 443, with the URL https://www.rvtjhzr2ijv.com.
+
 2025-08-04 18:34:22 - 18:39:47: Many more instances of firefox.exe were created, suggesting continued use of the browser.
+
 2025-08-04 19:19:46: A text file named tor-shopping-list.txt was created on the desktop, along with a shortcut to it. This file's name suggests it might be related to activities performed using the Tor browser.
+
 2025-08-04 19:22:04: A file named webappsstore.sqlite was created, which is a Tor browser-specific file used for storing web application data.
 
 ## Summary
