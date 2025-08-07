@@ -43,6 +43,13 @@ DeviceFileEvents
 ```
 <img width="2372" height="714" alt="image" src="https://github.com/user-attachments/assets/27f72779-7e98-4cf2-83ee-57979c6bf094" />
 
+```kql
+DeviceFileEvents
+| where DeviceName == "thl-mdg2"
+| where FileName contains "tor-shopping-list"
+| order by Timestamp desc 
+```
+<img width="2402" height="408" alt="image" src="https://github.com/user-attachments/assets/b484cdd5-6e02-4291-899c-5f3b11f23e05" />
 
 ---
 
@@ -61,7 +68,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.5.5.exe"
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="2388" height="714" alt="image" src="https://github.com/user-attachments/assets/2cc6f736-7251-4c2c-b2a6-e938d3e3559a" />
+
 
 ---
 
@@ -80,7 +88,8 @@ DeviceProcessEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<img width="2390" height="708" alt="image" src="https://github.com/user-attachments/assets/02e1ef3a-20e6-478b-8ab0-907c0df10333" />
+
 
 ---
 
@@ -105,7 +114,8 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<img width="2410" height="718" alt="image" src="https://github.com/user-attachments/assets/fc829a4d-4eee-47b5-9cfc-58af7502c2cd" />
+
 
 ---
 
