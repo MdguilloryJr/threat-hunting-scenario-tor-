@@ -77,7 +77,7 @@ DeviceFileEvents
 ## Created By:
 - **Author Name**: Michael Guillory
 - **Author Contact**: https://www.linkedin.com/in/michaelguillorymhe/
-- **Date**: August 6, 2025
+- **Date**: August 4, 2025
 
 ## Validated By:
 - **Reviewer Name**: 
@@ -94,4 +94,4 @@ DeviceFileEvents
 ## Revision History:
 | **Version** | **Changes**                   | **Date**         | **Modified By**   |
 |-------------|-------------------------------|------------------|-------------------|
-| 1.0         | Initial draft                  | `August  6, 2025`  | `Michael Guillory`   
+| 1.0         | Initial draft                  | `August  4, 2025`  | `Michael Guillory`   
